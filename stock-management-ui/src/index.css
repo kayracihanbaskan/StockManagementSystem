@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #343a40;
+  color: white;
+}
+
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar .nav-link:hover {
+  color: white;
+}
+
+.sidebar .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.low-stock {
+  background-color: #ffcccc;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.dashboard-card {
+  transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
